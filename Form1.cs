@@ -21,7 +21,10 @@ namespace PraktikumWeek7
 
 		private void btn_konversi_Click(object sender, EventArgs e)
 		{
-			
+			// program hanya bisa salin teks dari text box kalimat langsung ke label output
+			// untuk konversi saat di tekan hanya bisa mengconvert salah satu huruf saja bukan seluruh kalimat :v
+			// namun jika ingin salin teks dari text box kalimat ke label output text box huruf dan convert harus dikosongkan   
+
 			lbl_output.Text = tbox_kalimat.Text;
 
 			if (tbox_huruf.Text == "a")
